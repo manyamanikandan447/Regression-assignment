@@ -69,10 +69,14 @@ Apply multiple regression techniques on the **California Housing dataset** to pr
 
 
 ---
-
 ##  Conclusion
-- Ensemble methods (Random Forest, Gradient Boosting) outperform simpler models.
-- Gradient Boosting is the most effective for this dataset.
-- SVR is least effective due to computational inefficiency and poor scaling with large data.
+- Among all tested models, **Random Forest Regressor** achieved the best performance with the lowest error values (MSE = 0.25, MAE = 0.32) and the highest R² score (0.80).  
+  ➝ This shows that ensemble methods like Random Forest are highly effective at capturing complex patterns in housing data while reducing overfitting.
+
+- The **Linear Regression model** performed the worst, with the highest error values (MSE = 0.55, MAE = 0.53) and the lowest R² score (0.57).  
+  ➝ This indicates that a simple linear fit is insufficient for modeling the non-linear relationships present in the dataset.
+
+- Overall, ensemble methods (Random Forest, Gradient Boosting) consistently outperformed simpler models, highlighting the importance of using advanced techniques for real-world regression tasks.
+.
 
 
